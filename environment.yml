@@ -1,0 +1,24 @@
+name: plotline
+channels:
+- conda-forge
+dependencies:
+- black[jupyter]
+- cartopy
+- folium
+- geopandas
+- geoviews
+- hvplot
+- ipykernel
+- jupyter_bokeh
+- jupyterlab
+- matplotlib
+- nbdev
+- pandas
+- plotly
+- pre-commit
+- pyproj
+- python=3.10
+
+
+
+
