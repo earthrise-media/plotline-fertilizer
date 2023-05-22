@@ -44,6 +44,25 @@ update your conda environment:
 conda env update
 ```
 
+### Setup with Docker 
+
+1.  Build the docker image
+
+```shell
+docker build .  -t rhomis
+```
+
+2. Run the container
+
+```shell
+docker run --rm -it -p 8888:8888  -v $(pwd):/mnt rhomis
+```
+3. Run notebook
+
+```shell
+jupyter notebook --ip 0.0.0.0 --allow-root
+```
+
 ## Exploring the notebook
 
 Use `jupyter lab` to view the plots and graphics more easily. 
